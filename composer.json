@@ -5,7 +5,7 @@
   "keywords": ["symfony", "validation", "nip", "polish nip", "tax number"],
   "homepage": "http://pajerdesign.pl",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "authors": [
     {
       "name": "Robert Pajer",
@@ -14,13 +14,13 @@
   ],
   "require": {
     "php": ">=7.4",
-    "symfony/framework-bundle": "~4.0|~5.0|~6.0",
-    "symfony/dependency-injection": "~4.0|~5.0|~6.0",
-    "symfony/validator": "~4.0|~5.0|~6.0",
+    "symfony/framework-bundle": "~6.0|~7.0",
+    "symfony/dependency-injection": "~6.0|~7.0",
+    "symfony/validator": "~6.0|~7.0",
     "ext-mbstring": "*"
   },
   "autoload": {
-    "psr-4": { "PAJERdesign\\PolishTaxNumberValidator\\": "src/" }
+    "psr-4": { "PAJERdesign\\PolishTaxNumberValidatorBundle\\": "src/" }
   },
   "extra": {
     "branch-alias": {

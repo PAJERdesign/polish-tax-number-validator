@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace PAJERdesign\PolishTaxNumberValidator\Validator\Constraints;
+namespace PAJERdesign\PolishTaxNumberValidatorBundle\Validator\Constraints;
 
 use Symfony\Component\Validator\Constraint;
 use Symfony\Component\Validator\ConstraintValidator;
